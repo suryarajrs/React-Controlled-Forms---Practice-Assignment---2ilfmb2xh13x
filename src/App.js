@@ -81,7 +81,7 @@ function App() {
             <span className="title">Text : {textarea} </span>
           </p>
           <p className="radio">
-            <span className="title">Radio :{radio} </span>
+            <span className="title">Radio : </span> {radio}
           </p>
           <p className="checkbox">
             <span className="title">Checkbox : </span> {`[ `} {checkbox.map((isChecked, index) => (isChecked ? `${index + 1}, ` : ''))}
