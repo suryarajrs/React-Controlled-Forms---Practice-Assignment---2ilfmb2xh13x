@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
 
-  const  [radio , setRadio]=useState('');
+  const  [radio , setRadio]=useState('1');
   const [checkbox , setCheckbox]=useState([false , false , false]);
   const [textarea , setTextarea]=useState("");
 
